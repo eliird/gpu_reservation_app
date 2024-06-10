@@ -5,3 +5,9 @@ edition = "2021"
 
 [dependencies]
 fltk = "1.1"
+fltk-flex = "0.1"
+fltk-theme = "0.1"
+fltk-calendar = "0.3"
+chrono = "0.4"
+tokio = { version = "1", features = ["full"] }
+tokio-postgres = "0.7"
